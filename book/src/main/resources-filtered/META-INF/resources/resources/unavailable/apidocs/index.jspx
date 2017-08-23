@@ -28,7 +28,7 @@ along with semanticcms-resources-unavailable.  If not, see <http://www.gnu.org/l
 	xmlns:jsp="http://java.sun.com/JSP/Page"
 	title="@{documented.name} @{com.semanticcms:semanticcms-resources-unavailable:pom.version} API Docs"
 	shortTitle="API Docs"
-	datePublished="2017-08-22T18:32:14-0500"
+	datePublished="2017-08-22T18:37:12-0500"
 	dateModified="${ao:getLastModified('index.html')}"
 >
 	<jsp:directive.page language="java" pageEncoding="UTF-8" session="false" />

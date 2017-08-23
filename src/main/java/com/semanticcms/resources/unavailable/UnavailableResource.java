@@ -23,31 +23,37 @@
 package com.semanticcms.resources.unavailable;
 
 import com.aoindustries.net.Path;
-import com.semanticcms.core.resources.ResourceStore;
+import com.semanticcms.core.resources.Resource;
+import com.semanticcms.core.resources.ResourceConnection;
+import java.io.File;
+import java.io.IOException;
 
 /**
- * An unavailable {@link ResourceStore}
+ * An unavailable {@link Resource}
  */
-public class UnavailableResourceStore implements ResourceStore {
+public class UnavailableResource extends Resource {
 
-	private static final UnavailableResourceStore instance = new UnavailableResourceStore();
-
-	public static UnavailableResourceStore getInstance() {
-		return instance;
+	public UnavailableResource(UnavailableResourceStore store, Path path) {
+		super(store, path);
 	}
 
 	@Override
-	public String toString() {
-		return "unavailable:";
+	public UnavailableResourceStore getStore() {
+		return (UnavailableResourceStore)store;
 	}
 
 	@Override
-	public boolean isAvailable() {
+	public boolean isFilePreferred() {
 		return false;
 	}
 
 	@Override
-	public UnavailableResource getResource(Path path) {
-		return new UnavailableResource(this, path);
+	public File getFile() {
+		return null;
+	}
+
+	@Override
+	public ResourceConnection open() throws IOException {
+		throw new IOException("Resource store is unavailable: " + path);
 	}
 }

@@ -36,7 +36,7 @@ along with semanticcms-resources-unavailable.  If not, see <http://www.gnu.org/l
 		title="@{documented.name} Changelog"
 		shortTitle="Changelog"
 		tocLevels="1"
-		datePublished="2017-08-22T18:32:14-0500"
+		datePublished="2017-08-22T18:37:12-0500"
 	>
 		<!-- The current snapshot, unreleased version -->
 		<c:set var="version" value="@{com.semanticcms:semanticcms-resources-unavailable:pom.version}" />

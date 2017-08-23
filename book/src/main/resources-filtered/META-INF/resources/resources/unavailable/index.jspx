@@ -33,7 +33,7 @@ along with semanticcms-resources-unavailable.  If not, see <http://www.gnu.org/l
 		title="@{documented.name}"
 		shortTitle="@{documented.shortTitle}"
 		description="@{documented.description}"
-		datePublished="2017-08-22T18:32:14-0500"
+		datePublished="2017-08-22T18:37:12-0500"
 	>
 		<core:child page="changelog.jspx" />
 		<core:child page="apidocs/index.jspx" />
