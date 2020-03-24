@@ -27,7 +27,7 @@ Unavailable sets of [SemanticCMS resources](https://github.com/aoindustries/sema
 * [Project Home](https://semanticcms.com/resources/unavailable/)
 * [Changelog](https://semanticcms.com/resources/unavailable/changelog)
 * [API Docs](https://semanticcms.com/resources/unavailable/apidocs/)
-* [Maven Central Repository](https://search.maven.org/#search%7Cgav%7C1%7Cg:%22com.semanticcms%22%20AND%20a:%22semanticcms-resources-unavailable%22)
+* [Maven Central Repository](https://search.maven.org/artifact/com.semanticcms/semanticcms-resources-unavailable)
 * [GitHub](https://github.com/aoindustries/semanticcms-resources-unavailable)
 
 ## Contact Us
