@@ -53,6 +53,11 @@ along with semanticcms-resources-unavailable.  If not, see <http://www.gnu.org/l
 		<tag>HEAD</tag>
 	</scm>
 
+	<issueManagement>
+		<system>GitHub Issues</system>
+		<url>https://github.com/aoindustries/semanticcms-resources-unavailable/issues</url>
+	</issueManagement>
+
 	<profiles>
 		<profile>
 			<id>release</id>
