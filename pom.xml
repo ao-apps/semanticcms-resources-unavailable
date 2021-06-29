@@ -33,6 +33,7 @@ along with semanticcms-resources-unavailable.  If not, see <http://www.gnu.org/l
 	<packaging>bundle</packaging>
 
 	<properties>
+		<module.name>com.semanticcms.resources.unavailable</module.name>
 		<javadoc.breadcrumbs><![CDATA[<a target="${javadoc.target}" href="https://semanticcms.com/">SemanticCMS</a>
 / <a target="${javadoc.target}" href="https://semanticcms.com/resources/">Resources</a>
 / <a target="${javadoc.target}" href="${project.url}">Unavailable</a>]]></javadoc.breadcrumbs>
