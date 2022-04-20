@@ -34,27 +34,27 @@ import java.io.IOException;
  */
 public class UnavailableResource extends Resource {
 
-	public UnavailableResource(UnavailableResourceStore store, Path path) {
-		super(store, path);
-	}
+  public UnavailableResource(UnavailableResourceStore store, Path path) {
+    super(store, path);
+  }
 
-	@Override
-	public UnavailableResourceStore getStore() {
-		return (UnavailableResourceStore)store;
-	}
+  @Override
+  public UnavailableResourceStore getStore() {
+    return (UnavailableResourceStore)store;
+  }
 
-	@Override
-	public boolean isFilePreferred() {
-		return false;
-	}
+  @Override
+  public boolean isFilePreferred() {
+    return false;
+  }
 
-	@Override
-	public File getFile() {
-		return null;
-	}
+  @Override
+  public File getFile() {
+    return null;
+  }
 
-	@Override
-	public ResourceConnection open() throws IOException {
-		throw new IOException("Resource store is unavailable: " + path);
-	}
+  @Override
+  public ResourceConnection open() throws IOException {
+    throw new IOException("Resource store is unavailable: " + path);
+  }
 }

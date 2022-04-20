@@ -31,24 +31,24 @@ import com.semanticcms.core.resources.ResourceStore;
  */
 public class UnavailableResourceStore implements ResourceStore {
 
-	private static final UnavailableResourceStore instance = new UnavailableResourceStore();
+  private static final UnavailableResourceStore instance = new UnavailableResourceStore();
 
-	public static UnavailableResourceStore getInstance() {
-		return instance;
-	}
+  public static UnavailableResourceStore getInstance() {
+    return instance;
+  }
 
-	@Override
-	public String toString() {
-		return "unavailable:";
-	}
+  @Override
+  public String toString() {
+    return "unavailable:";
+  }
 
-	@Override
-	public boolean isAvailable() {
-		return false;
-	}
+  @Override
+  public boolean isAvailable() {
+    return false;
+  }
 
-	@Override
-	public UnavailableResource getResource(Path path) {
-		return new UnavailableResource(this, path);
-	}
+  @Override
+  public UnavailableResource getResource(Path path) {
+    return new UnavailableResource(this, path);
+  }
 }
