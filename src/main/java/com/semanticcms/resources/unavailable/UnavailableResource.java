@@ -40,7 +40,7 @@ public class UnavailableResource extends Resource {
 
   @Override
   public UnavailableResourceStore getStore() {
-    return (UnavailableResourceStore)store;
+    return (UnavailableResourceStore) store;
   }
 
   @Override
