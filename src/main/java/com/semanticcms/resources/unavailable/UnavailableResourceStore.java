@@ -27,7 +27,7 @@ import com.aoapps.net.Path;
 import com.semanticcms.core.resources.ResourceStore;
 
 /**
- * An unavailable {@link ResourceStore}
+ * An unavailable {@link ResourceStore}.
  */
 public class UnavailableResourceStore implements ResourceStore {
 

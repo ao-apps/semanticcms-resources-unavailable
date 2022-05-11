@@ -30,7 +30,7 @@ import java.io.File;
 import java.io.IOException;
 
 /**
- * An unavailable {@link Resource}
+ * An unavailable {@link Resource}.
  */
 public class UnavailableResource extends Resource {
 
