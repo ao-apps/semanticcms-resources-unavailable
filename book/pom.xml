@@ -36,15 +36,15 @@ along with semanticcms-resources-unavailable.  If not, see <https://www.gnu.org/
     <module.name>com.semanticcms.resources.unavailable.book</module.name>
     <!-- These values are copied from the project being documented -->
     <documented.artifactId>semanticcms-resources-unavailable</documented.artifactId>
-    <documented.name>SemanticCMS Resources Unavailable²</documented.name>
+    <documented.name>SemanticCMS Resources Unavailable</documented.name>
     <documented.description>Unavailable sets of SemanticCMS resources.</documented.description>
 
     <description.html><![CDATA[Documentation for <a target="${javadoc.target}" href="${project.url}">${documented.name}</a> in <a target="${javadoc.target}" href="https://semanticcms.com/">SemanticCMS</a> format.]]></description.html>
   </properties>
 
-  <name>SemanticCMS Resources Unavailable² Book</name>
+  <name>SemanticCMS Resources Unavailable Book</name>
   <url>https://semanticcms.com/resources/unavailable/</url>
-  <description>Documentation for SemanticCMS Resources Unavailable² in SemanticCMS format.</description>
+  <description>Documentation for SemanticCMS Resources Unavailable in SemanticCMS format.</description>
   <inceptionYear>2017</inceptionYear>
 
   <licenses>

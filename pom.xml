@@ -46,7 +46,7 @@ along with semanticcms-resources-unavailable.  If not, see <https://www.gnu.org/
     <sonar.coverage.exclusions>**.*</sonar.coverage.exclusions>
   </properties>
 
-  <name>SemanticCMS Resources Unavailable²</name>
+  <name>SemanticCMS Resources Unavailable</name>
   <url>https://semanticcms.com/resources/unavailable/</url>
   <description>Unavailable sets of SemanticCMS resources.</description>
   <inceptionYear>2017</inceptionYear>
