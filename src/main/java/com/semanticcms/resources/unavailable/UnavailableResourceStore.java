@@ -1,6 +1,6 @@
 /*
  * semanticcms-resources-unavailable - Unavailable sets of SemanticCMS resources.
- * Copyright (C) 2017, 2021, 2022, 2024  AO Industries, Inc.
+ * Copyright (C) 2017, 2021, 2022, 2024, 2025  AO Industries, Inc.
  *     support@aoindustries.com
  *     7262 Bull Pen Cir
  *     Mobile, AL 36695
@@ -25,7 +25,6 @@ package com.semanticcms.resources.unavailable;
 
 import com.aoapps.net.Path;
 import com.semanticcms.core.resources.ResourceStore;
-import edu.umd.cs.findbugs.annotations.SuppressFBWarnings;
 
 /**
  * An unavailable {@link ResourceStore}.
@@ -34,7 +33,6 @@ public class UnavailableResourceStore implements ResourceStore {
 
   private static final UnavailableResourceStore instance = new UnavailableResourceStore();
 
-  @SuppressFBWarnings(value = "SING_SINGLETON_GETTER_NOT_SYNCHRONIZED", justification = "instance is static final")
   public static UnavailableResourceStore getInstance() {
     return instance;
   }
